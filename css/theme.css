@@ -1,0 +1,428 @@
+/* Theme Overrides */
+:root {
+    --primary-color: #3b82f6;
+    --secondary-color: #1d4ed8;
+    --accent-color: #0ea5e9;
+    --text-color: #f8fafc;
+    --text-color-light: #f1f5f9;
+    --bg-dark: #0f172a;
+    --bg-darker: #020617;
+    --glass-bg: rgba(255, 255, 255, 0.15);
+    --glass-border: rgba(255, 255, 255, 0.25);
+}
+
+/* Navigation */
+.glass-nav {
+    background: rgba(2, 6, 23, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo-title {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.logo-slogan {
+    color: #f1f5f9;
+    opacity: 1;
+}
+
+.nav-links a {
+    color: #f8fafc;
+    opacity: 1;
+}
+
+.nav-links a:hover {
+    color: #3b82f6;
+}
+
+/* Hero Section */
+.hero-content h1 {
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+.hero-subtitle {
+    color: #f1f5f9;
+    opacity: 1;
+}
+
+.cta-button.primary {
+    background: #3b82f6;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
+
+.cta-button.secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 2px solid #f8fafc;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Card Styles */
+.service-card,
+.feature-card,
+.solution-card {
+    background: rgba(2, 6, 23, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-card h3,
+.feature-card h3,
+.solution-card h3 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.service-card p,
+.feature-card p,
+.solution-card p {
+    color: #f1f5f9;
+    opacity: 1;
+}
+
+/* Tab Buttons */
+.tab-button {
+    background: rgba(2, 6, 23, 0.95);
+    color: #f8fafc;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+}
+
+.tab-button:hover {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: #3b82f6;
+}
+
+.tab-button.active {
+    background: #3b82f6;
+    color: #ffffff;
+    border-color: #3b82f6;
+    font-weight: 600;
+}
+
+/* Text Elements */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+p, li {
+    color: #f1f5f9;
+}
+
+/* Stats and Metrics */
+.stat-number,
+.metric-value {
+    color: #3b82f6;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+    font-weight: 700;
+}
+
+.stat-label,
+.metric-label {
+    color: #f1f5f9;
+    font-weight: 500;
+}
+
+/* Feature Items */
+.feature-item {
+    background: rgba(2, 6, 23, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature-item i {
+    color: #3b82f6;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+}
+
+.feature-item h4 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+/* Advantage Items */
+.advantage-item {
+    background: rgba(2, 6, 23, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.advantage-item h5 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+.advantage-item p {
+    color: #f1f5f9;
+}
+
+/* Solution Features */
+.solution-features li {
+    color: #f1f5f9;
+    position: relative;
+    padding-left: 1.5em;
+}
+
+.solution-features li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #3b82f6;
+}
+
+/* Service Process */
+.service-process {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    position: relative;
+}
+
+.process-steps::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(59, 130, 246, 0.3);
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.process-step {
+    flex: 1;
+    background: rgba(2, 6, 23, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+
+.step-number {
+    width: 48px;
+    height: 48px;
+    background: #3b82f6;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.process-step h4 {
+    color: #ffffff;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+.process-step p {
+    color: #f1f5f9;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .process-steps {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .process-steps::before {
+        display: none;
+    }
+
+    .process-step {
+        min-height: auto;
+        padding: 1.5rem;
+    }
+}
+
+/* Footer */
+.footer {
+    background: rgba(2, 6, 23, 0.98);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    color: #f1f5f9;
+}
+
+.footer-logo {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.footer-links a {
+    color: #f1f5f9;
+    opacity: 1;
+}
+
+.footer-links a:hover {
+    color: #3b82f6;
+}
+
+/* Startup Section */
+.startup-section {
+    background: var(--bg-dark);
+    padding: 6rem 2rem;
+}
+
+.section-header h2 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.section-header p {
+    color: #f1f5f9;
+    opacity: 1;
+}
+
+.startup-card {
+    background: rgba(2, 6, 23, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.startup-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+
+.startup-card.special-offer {
+    border: 2px solid #3b82f6;
+    background: linear-gradient(145deg, rgba(2, 6, 23, 0.98), rgba(29, 78, 216, 0.15));
+}
+
+.card-badge {
+    background: #3b82f6;
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.startup-card h3 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.startup-card p {
+    color: #f1f5f9;
+}
+
+.startup-features {
+    margin: 1.5rem 0;
+}
+
+.startup-features li {
+    color: #f1f5f9;
+    padding: 0.5rem 0;
+    padding-left: 1.8rem;
+    position: relative;
+}
+
+.startup-features li::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    color: #3b82f6;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+}
+
+.apply-button {
+    background: #3b82f6;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.apply-button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* Success Stories */
+.success-stories {
+    padding: 4rem 0;
+}
+
+.success-stories h3 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.story-card {
+    background: rgba(2, 6, 23, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+
+.story-content {
+    padding: 2rem;
+}
+
+.story-content h4 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+}
+
+.story-content p {
+    color: #f1f5f9;
+    line-height: 1.6;
+}
+ 
