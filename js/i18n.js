@@ -129,7 +129,7 @@ const translations = {
 
         'about.values.title': '企业文化',
         'about.values.innovation': '创新驱动',
-        'about.values.innovation.description': '持续创新，追���卓越',
+        'about.values.innovation.description': '持续创新，追求卓越',
         'about.values.customer': '客户至上',
         'about.values.customer.description': '以客户价值为导向',
         'about.values.cooperation': '协作共赢',
@@ -248,14 +248,14 @@ const translations = {
         'services.vision.advantages.accuracy.description': '识别准确率达到99.9%',
         'services.vision.advantages.realtime.title': '实时处理',
         'services.vision.advantages.realtime.description': '毫秒级响应速度',
-        'services.vision.advantages.scalable.title': '高扩��性',
+        'services.vision.advantages.scalable.title': '高扩展性',
         'services.vision.advantages.scalable.description': '支持多场景应用',
         
         // 智能语言处理优势
         'services.llm.advantages.intelligent.title': '智能对话',
         'services.llm.advantages.intelligent.description': '深度理解用户意图',
         'services.llm.advantages.performance.title': '高性能',
-        'services.llm.advantages.performance.description': '毫秒级响应��������度',
+        'services.llm.advantages.performance.description': '毫秒级响应速度',
         'services.llm.advantages.security.title': '安全可靠',
         'services.llm.advantages.security.description': '企业级数据安全',
         
@@ -459,7 +459,7 @@ const translations = {
         'button.next': '下一步',
         
         // 提示信息
-        'message.success': '提交���功',
+        'message.success': '提交成功',
         'message.error': '提交失败',
         'message.required': '必填项',
         'message.invalid_email': '邮箱格式不正确',
@@ -1031,13 +1031,13 @@ const translations = {
         'nav.contact': 'お問い合わせ',
         
         // ページタイトル
-        'title': 'Meta AI Team - エンタープライズAIソリューション',
+        'title': 'Meta AI Team - 企業向けのカスタマイズされたAIソリューション',
         
         // ヒーローセクション
         'hero.title': 'インテリジェントAIソリューション',
-        'hero.subtitle': '最先端の人工知能サービスを企業に提供',
+        'hero.subtitle': '最先端の人工知能サービスを提供',
         'hero.cta': 'お問い合わせ',
-        'hero.demo': 'デモを試す',
+        'hero.demo': 'デモ体験',
         
         // 統計データ
         'stats.clients': '企業クライアント',
@@ -1060,7 +1060,7 @@ const translations = {
         'features.security.title': '安全性と信頼性',
         'features.security.description': 'エンタープライズグレードのセキュリティシステム',
         'features.performance.title': '高性能',
-        'features.performance.description': 'ミリ秒レベルの応答、高並列処理',
+        'features.performance.description': 'ミリ秒レベルの応答、高度並列処理',
         'features.scalability.title': '柔軟な拡張性',
         'features.scalability.description': 'ビジネス成長に柔軽に対応',
 
@@ -1071,15 +1071,15 @@ const translations = {
         // ビジョンサービス
         'services.vision.tab': 'コンピュータビジョン',
         'services.vision.title': 'コンピュータビジョンサービス',
-        'services.vision.description': '画像認識、動画分析、物体検出など、包括的な視覚AIサービスを提供',
+        'services.vision.description': '画像認識、動画分析、物体検出など、視覚AIサービスを提供',
         'services.vision.features.recognition': '画像認識',
         'services.vision.features.analysis': '動画分析',
         'services.vision.features.detection': '物体検出',
         
         // 言語モデルサービス
-        'services.llm.tab': '大規模言語モデル',
-        'services.llm.title': '大規模言語モデルサービス',
-        'services.llm.description': '先進的な言語モデルによるインテリジェント対話、テキスト理解、コンテンツ生成サービス',
+        'services.llm.tab': 'LLMモデル',
+        'services.llm.title': 'LLMモデルサービス',
+        'services.llm.description': '先進的LLMモデルによるインテリジェント対話、テキスト理解、コンテンツ生成サービス',
         'services.llm.features.dialogue': 'インテリジェント対話',
         'services.llm.features.understanding': 'テキスト理解',
         'services.llm.features.generation': 'コンテンツ生成',
@@ -1098,7 +1098,7 @@ const translations = {
         
         // インテリジェントカスタマーサービスソリューション
         'solutions.customerService.title': 'インテリジェントカスタマーサービス',
-        'solutions.customerService.description': '大規模言語モデルを基盤とした次世代インテリジェントカスタマーサービスシステム、24時間365日多言語対応の高性能サービスを提供',
+        'solutions.customerService.description': 'LLMモデルモデルを基盤とした次世代インテリジェントカスタマーサービスシステム、24時間365日多言語対応の高性能サービスを提供',
         'solutions.customerService.features.dialogue': 'マルチターン対話',
         'solutions.customerService.features.knowledge': 'ナレッジベース構築',
         'solutions.customerService.features.emotion': '感情分析',
@@ -1108,7 +1108,7 @@ const translations = {
         'solutions.customerService.metrics.efficiency': '業務効率向上',
         'solutions.customerService.metrics.resolution': '解決率',
         'solutions.customerService.metrics.service': '24時間対',
-        'solutions.customerService.metrics.cost': 'コスト削',
+        'solutions.customerService.metrics.cost': 'コスト削減',
         'solutions.cases.title': '成功事例',
         'solutions.customerService.cases.ecommerce': 'ECプラットフォーム：日間50万件以上の問い合わせ処理、効率80%向上、満足度40%向上',
         'solutions.customerService.cases.bank': '銀行：月間運用コスト200万以上削減、業務効率65%向上',
@@ -1260,7 +1260,7 @@ const translations = {
         // Smart Retail Solution
         'solutions.retail.title': 'スマートリテールソリューション',
         'solutions.retail.description': 'オンラインとオフライン統合したスマートリテールソリューション、商品選定最適化、インテリジェント補充、顧客フロー分析サービスを提供',
-        'solutions.retail.features.selection': 'ス���ート商品選定',
+        'solutions.retail.features.selection': 'スマート商品選定',
         'solutions.retail.features.inventory': '在庫最適化',
         'solutions.retail.features.traffic': '顧客フロー分析',
         'solutions.retail.metrics.inventory': '在庫最適化',
